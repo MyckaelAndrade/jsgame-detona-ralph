@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
+    <!-- Settings -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./src/images/favicon.jpg" type="image/x-icon">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./src/style/style.css">
+
+    <!-- Title -->
+    <title>Detona Ralph</title>
 </head>
+
 <body>
-    
+    <header>
+        <div id="container">
+            <div class="box-time">
+                <h2>Time</h2>
+                <p id="time">0</p>
+            </div>
+            <div class="box-score">
+                <h2>Score</h2>
+                <p id="score">0</p>
+            </div>
+            <div class="box-lives">
+                <h2>Life</h2>
+                <p id="lives">3</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="panel">
+            <div class="panel-row">
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+            <div class="panel-row">
+                <div class="square target" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+            <div class="panel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="./src/images/profile.jpg" alt="">
+        <h2>By <a href="https://github.com/MyckaelAndrade?tab=repositories" target="_blank"
+                rel="noopener noreferrer">Myckael Andrade</a></h2>
+    </footer>
+
+    <!-- Scripts -->
+    <script defer src="./src/script/engine.js"></script>
 </body>
+
 </html>

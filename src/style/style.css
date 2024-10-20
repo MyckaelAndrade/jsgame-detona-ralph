@@ -1,0 +1,73 @@
+@import url(./reset.css);
+
+body {
+    background-color: #000;
+    color: #ddd;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #ffd700;
+}
+
+#container h2 {
+    padding: 0 4px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-shadow: 1px 1px #ffd700;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    background: url("../images/wall.png");
+    background-attachment: fixed;
+}
+
+.panel-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    width: 17dvh;
+    height: 17dvh;
+    border: 1px solid #ffd700;
+    border-radius: 5px;
+    background-color: #000000af;
+    margin: 3px;
+}
+
+.target {
+    background: url("../images/ralph.png");
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid #ffd700;
+    width: 100%;
+    height: 50vh;
+    padding: 50px;
+}
+
+footer img {
+    width: 10dvh;
+    height: 10dvh;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+footer h2 a {
+    color: #ffd700;
+    text-decoration: none;
+}
