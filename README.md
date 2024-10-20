@@ -31,7 +31,7 @@ Bem-vindo ao projeto do jogo 2D de Detona Ralph! Este projeto é uma recriação
 ## Capturas de Tela
 
 ### Gameplay
-![Gameplay](assets/gameplay.png)
+![Gameplay](./src/images/gameplay.jpg)
 
 ## Contribuição
 
