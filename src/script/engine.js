@@ -57,8 +57,8 @@ function addListenerHitBox() {
                 state.values.life--;
                 state.view.lives.textContent = state.values.life;
                 state.values.hitPosition = null;
-                playSound("lose");
                 if (state.values.life <= 0) {
+                    playSound("lose");
                     clearInterval(state.actions.countDownTimerId);
                     clearInterval(state.actions.timerId);
                     alert("Game Over! Score:" + state.values.result);
