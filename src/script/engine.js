@@ -57,6 +57,7 @@ function addListenerHitBox() {
                 state.values.life--;
                 state.view.lives.textContent = state.values.life;
                 state.values.hitPosition = null;
+                playSound("lose");
                 if (state.values.life <= 0) {
                     clearInterval(state.actions.countDownTimerId);
                     clearInterval(state.actions.timerId);
